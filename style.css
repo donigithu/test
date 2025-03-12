@@ -1,0 +1,225 @@
+body{
+    background-color: #f1eaea;
+    font-family: Arial, sans-serif;
+}
+a{
+    color: #ca17de;
+    text-decoration: underline;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #e01cc9;
+}
+nav ul li .download a {
+    background-color: #ca17de;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+nav ul li.download a:hover {
+    background-color: #a014b3;
+}
+
+
+.music-player {
+    display: block; 
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.music-player .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-player .play-pause {
+    display: inline-block; 
+    background-color: #ca17de;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.music-player .progress-bar {
+    display: block; 
+    flex-grow: 1;
+    height: 5px;
+    background-color: #ddd;
+    margin: 0 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+
+.music-player .volume-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-player .volume-control input[type="range"] {
+    display: inline;
+    margin-left: 10px;
+}
+
+@import url('/Users/HP/Downloads/Button-the-Dowloand-Charge-bar-main.zip');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f1eaea;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: hidden;
+}
+
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+nav ul li.download a {
+    background-color: #333;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 13px 20px;
+}
+
+nav ul li.download a:hover {
+    background-color: #eb2ad2;
+}
+
+
+.music-player {
+    display: block; 
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.music-player .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-player .play-pause {
+    display: inline-block; 
+    background-color: #ca17de;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.music-player .progress-bar {
+    display: block; 
+    flex-grow: 1;
+    height: 5px;
+    background-color: #ddd;
+    margin: 0 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.music-player .volume-control {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-player .volume-control input[type="range"] {
+    display: inline;
+    margin-left: 10px;
+}
+
+.button {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background: #36e387;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #22223F;
+}
